@@ -10,7 +10,7 @@ forge 'https://forge.puppet.com'
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 mod 'cd4pe_tests',
   :git    => 'https://github.com/puppetlabs/puppetlabs-cd4pe_tests',
-  :branch => 'control_branch'
+  :branch => :control_branch
 
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
